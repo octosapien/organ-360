@@ -1,0 +1,67 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log*
+pids/
+*.pid
+*.seed
+*.state
+*.log.*
+
+# Binaries
+*.exe
+*.out
+*.app
+*.dmg
+
+# OS/Editor specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Coverage and testing
+coverage/
+.nyc_output/
+jest/
+test-reports/
+
+# Database and cache
+dump.rdb
+*.sqlite
+*.sqlite3
+*.db
+*.tgz
+.cache/
+data/
+mongodb/
+mongod.lock
+*.pid
+
+# Build and deployment
+build/
+dist/
+out/
+tmp/
+*.swp
