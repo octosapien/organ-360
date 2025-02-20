@@ -27,7 +27,7 @@ function CreateArchive() {
         });
 
         try {
-            await axios.post('http://localhost:5000/api/archives', formData, {
+            await axios.post('https://organ-360.onrender.com/api/archives', formData, {
                 headers: { 'Content-Type': 'multipart/form-data' },
             });
             navigate('/'); // Redirect to homepage

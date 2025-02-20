@@ -13,7 +13,7 @@ function ArchivePage() {
     const [currentIndex, setCurrentIndex] = useState(0);    
     
     useEffect(() => {    
-        axios.get(`http://localhost:5000/api/archives/${id}`)    
+        axios.get(`https://organ-360.onrender.com/api/archives/${id}`)    
             .then(res => {    
                 setArchive(res.data.archive);    
                 setDetails(res.data.details);    
@@ -85,7 +85,7 @@ function ArchivePage() {
                                 if (!heading.trim() || !content.trim()) return;    
     
                                 try {    
-                                    const res = await axios.post('http://localhost:5000/api/details', {    
+                                    const res = await axios.post('https://organ-360.onrender.com/api/details', {    
                                         archiveId: id,    
                                         heading,    
                                         content    
